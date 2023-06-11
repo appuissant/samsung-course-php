@@ -56,7 +56,7 @@
                         </script>';
                     } 
                     else {
-                        echo "Error: " . $query . "<br/>" . $connection_error;
+                        echo "Error: " . $query . "<br/>" . $connection->connect_error;
                     }
 
                     $connection->close();
